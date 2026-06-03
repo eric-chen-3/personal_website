@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Projects and Achievements | Eric Chen</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <a class="site-brand" href="index.html">Eric Chen</a>
+    <header class="site-header">
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="index.html#story">Story</a>
+        <a href="projects.html">Projects & Wins</a>
+        <a href="about.html">About Me</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="section projects-page-section">
+        <div class="section-heading row-heading">
+          <div>
+            <h1>Projects and Achievements</h1>
+          </div>
+          <div class="filter-group" aria-label="Filter projects and achievements">
+            <button class="filter-button active" type="button" data-filter="all">All</button>
+            <button class="filter-button" type="button" data-filter="project">Projects</button>
+            <button class="filter-button" type="button" data-filter="achievement">Wins</button>
+          </div>
+        </div>
+
+        <div class="showcase-grid">
+          <article class="showcase-card" data-type="project">
+            <p class="tag">Project</p>
+            <h3>Data Ingestion Modernization</h3>
+            <p>
+              Modernized Zelis data ingestion through Openflow, making source
+              onboarding faster and internal data systems more efficient.
+            </p>
+            <ul>
+              <li>Reduced new data source onboarding time from 4 weeks to 2 days</li>
+              <li>Improved data availability SLA from next-day to near real-time</li>
+              <li>Supported growth from 2 to over 20 data sources</li>
+            </ul>
+          </article>
+          <article class="showcase-card" data-type="project">
+            <p class="tag">Project</p>
+            <h3>Address Standardization API</h3>
+            <p>
+              Launched an enterprise data API at Zelis that standardizes
+              addresses across real-time transactions, bulk processing, and
+              file-based ingestion.
+            </p>
+            <ul>
+              <li>100K+ records processed daily</li>
+              <li>$60K annual third-party data cost reduction</li>
+            </ul>
+          </article>
+          <article class="showcase-card" data-type="project">
+            <p class="tag">Project</p>
+            <h3>Segment Filtering Platform</h3>
+            <p>
+              Shipped a filtering product for Frequence's largest customer,
+              translating complex data needs into a workflow users could adopt.
+            </p>
+            <ul>
+              <li>10% platform adoption lift within six months</li>
+              <li>Expanded utilization across key user groups</li>
+              <li>Customer requirements translated into scalable features</li>
+            </ul>
+          </article>
+          <article class="showcase-card" data-type="achievement">
+            <p class="tag">Achievement</p>
+            <h3>Case Competitions</h3>
+            <p>
+              Built an early track record in case competitions and selective
+              programs, winning the Deloitte Case Competition with a proposal on
+              managing zero-waste policies at Berkeley.
+            </p>
+            <ul>
+              <li>Deloitte StartUp Case Competition 2017, 1st place</li>
+              <li>Austern International Dream Scholar Finalist</li>
+              <li>PwC Fiercest Competitor Leadership Conference</li>
+            </ul>
+          </article>
+          <article class="showcase-card" data-type="achievement">
+            <p class="tag">Achievement</p>
+            <h3>Inventure: Shark Tank entrepreneurs</h3>
+            <p>
+              Co-hosted a campus-wide Berkeley event featuring past Shark Tank
+              contestants to reinforce the entrepreneurial spirit on campus.
+            </p>
+            <ul>
+              <li>Sourced 550+ Shark Tank contestants</li>
+              <li>Raised a $1,200+ budget and drew 350+ attendees</li>
+              <li>Mark Cuban joined remotely to discuss entrepreneurship and innovation</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact-section">
+        <h2>Contact Me</h2>
+        <div class="contact-links">
+          <a href="mailto:ericytchen@gmail.com">Email</a>
+          <a href="https://www.linkedin.com/in/eric-chen-542b72127/" aria-label="LinkedIn profile">LinkedIn</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
